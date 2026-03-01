@@ -1,3 +1,4 @@
+#importing all necessary liraries
 import tkinter as tk
 from tkinter import messagebox, ttk
 import math
@@ -137,6 +138,7 @@ class GridEnvironment:
         self.dynamic_obstacles = []
 
 # ==================== PATHFINDING ALGORITHMS ====================
+    #This setion has two algorithms implemented one is A sterick other is Best First Search 
 
 class PathfindingAgent:
     """Implements A* and Greedy Best-First Search"""
@@ -646,4 +648,5 @@ Density: {self.obstacle_density:.1%}
 if __name__ == "__main__":
     root = tk.Tk()
     gui = PathfindingGUI(root)
+
     root.mainloop()
