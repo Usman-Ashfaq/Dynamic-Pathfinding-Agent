@@ -33,8 +33,8 @@ Real-time performance metrics display
 
 Path animation
 
-Algorithms Implemented
-A* Search
+### Algorithms Implemented
+## A* Search
 
 A* calculates:
 f(n) = g(n) + h(n)
@@ -45,14 +45,14 @@ h(n): estimated cost to goal
 
 It guarantees the shortest path when heuristic is admissible.
 
-Greedy Best-First Search
+## Greedy Best-First Search
 
 Greedy calculates:
 f(n) = h(n)
 
 It selects the node that appears closest to the goal, ignoring actual path cost. It is faster in simple cases but does not guarantee optimal paths.
 
-Performance Metrics Displayed
+### Performance Metrics Displayed
 
 Nodes Visited
 
@@ -78,7 +78,7 @@ The agent automatically replans if the path becomes blocked.
 
 This simulates real-world changing environments.
 
-Technologies Used
+### Technologies Used
 
 Python
 
@@ -103,13 +103,3 @@ python pathfind.py
 The GUI window will open.
 
 Educational Purpose
-
-This project is useful for:
-
-Artificial Intelligence coursework
-
-Understanding informed search algorithms
-
-Visual learning of heuristic-based pathfinding
-
-Comparing optimal vs non-optimal search strategies
