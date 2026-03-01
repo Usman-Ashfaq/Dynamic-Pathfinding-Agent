@@ -1,16 +1,15 @@
-Project Overview
+### Project Overview
 
 This project is a Python-based GUI application that demonstrates intelligent pathfinding using:
 
 A* Search
-
 Greedy Best-First Search
 
 The application is built using Tkinter and allows users to visually compare both algorithms in a grid-based environment. It also supports dynamic obstacle generation during path execution.
 
 This project helps in understanding how informed search algorithms work in real-time.
 
-Features
+### Features
 
 Interactive grid (custom size up to 50x50)
 
