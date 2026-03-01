@@ -1,4 +1,4 @@
-### Project Overview
+## Project Overview
 
 This project is a Python-based GUI application that demonstrates intelligent pathfinding using:
 
@@ -9,7 +9,7 @@ The application is built using Tkinter and allows users to visually compare both
 
 This project helps in understanding how informed search algorithms work in real-time.
 
-### Features
+## Features
 
 Interactive grid (custom size up to 50x50)
 
@@ -33,8 +33,8 @@ Real-time performance metrics display
 
 Path animation
 
-### Algorithms Implemented
-## A* Search
+## Algorithms Implemented
+### A* Search
 
 A* calculates:
 f(n) = g(n) + h(n)
@@ -45,14 +45,14 @@ h(n): estimated cost to goal
 
 It guarantees the shortest path when heuristic is admissible.
 
-## Greedy Best-First Search
+### Greedy Best-First Search
 
 Greedy calculates:
 f(n) = h(n)
 
 It selects the node that appears closest to the goal, ignoring actual path cost. It is faster in simple cases but does not guarantee optimal paths.
 
-### Performance Metrics Displayed
+## Performance Metrics Displayed
 
 Nodes Visited
 
@@ -78,7 +78,7 @@ The agent automatically replans if the path becomes blocked.
 
 This simulates real-world changing environments.
 
-### Technologies Used
+## Technologies Used
 
 Python
 
