@@ -1,3 +1,4 @@
+#importing all necessart libraries
 import tkinter as tk
 from tkinter import messagebox, ttk
 import math
@@ -646,4 +647,5 @@ Density: {self.obstacle_density:.1%}
 if __name__ == "__main__":
     root = tk.Tk()
     gui = PathfindingGUI(root)
+
     root.mainloop()
