@@ -643,7 +643,7 @@ Density: {self.obstacle_density:.1%}
         self.metrics_text.delete(1.0, tk.END)
         self.metrics_text.config(state=tk.DISABLED)
 
-# ==================== MAIN ====================
+# ==================== MAIN PROGRAM ====================
 
 if __name__ == "__main__":
     root = tk.Tk()
