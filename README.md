@@ -90,7 +90,7 @@ Dataclasses
 
 Object-Oriented Programming
 
-How to Run
+How to Run:
 
 Install Python 3.x
 
