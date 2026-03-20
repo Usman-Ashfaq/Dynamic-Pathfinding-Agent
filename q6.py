@@ -1,4 +1,4 @@
-#importing all necessart libraries
+#importing libraries
 import tkinter as tk
 from tkinter import messagebox, ttk
 import math
