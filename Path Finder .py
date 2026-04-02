@@ -1,4 +1,4 @@
-#importing the libraries
+
 import tkinter as tk
 from tkinter import messagebox, ttk
 import math
@@ -61,7 +61,7 @@ class SearchMetrics:
     path_length: int = 0
     frontier_size: int = 0
 
-# ================ GRID ENVIRONMENT =================
+# grid settings
 
 class GridEnvironment:
     """Manages the grid world and obstacle dynamics"""
