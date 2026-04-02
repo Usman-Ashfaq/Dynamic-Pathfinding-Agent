@@ -137,7 +137,7 @@ class GridEnvironment:
         self.grid = [[False for _ in range(self.cols)] for _ in range(self.rows)]
         self.dynamic_obstacles = []
 
-# ==================== PATHFINDING ALGORITHMS ====================
+# using algorithms
     #This setion has two algorithms implemented one is A sterick other is Best First Search 
 
 class PathfindingAgent:
